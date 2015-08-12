@@ -1,6 +1,6 @@
 <?php
 
-namespace yii\imperavi;
+namespace dungphanxuan\imperavieditor;
 use yii\web\AssetBundle;
 
 class ImagemanagerImperaviRedactorPluginAsset extends AssetBundle

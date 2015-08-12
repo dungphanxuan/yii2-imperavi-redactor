@@ -1,5 +1,5 @@
 {
-    "name": "asofter/yii2-imperavi-redactor",
+    "name": "dungphanxuan/yii2-imperavi-redactor",
     "description": "Imperavi Redactor WYSIWYG widget (OEM-licensed for Yii 2)",
     "keywords": ["yii", "imperavi redactor", "imperavi"],
     "type": "yii2-extension",
@@ -25,12 +25,18 @@
             "name": "Alexander Yaremchuk",
             "email": "alwex10@gmail.com"
         }
+        ,
+        {
+            "name": "DungPhanXuan",
+            "email": "dungphanxuan@vccorp.vn"
+        }
     ],
     "require": {
         "yiisoft/yii2": "*"
     },
     "autoload": {
-        "psr-0": { "yii\\imperavi\\": "" }
-    },
-    "target-dir": "yii/imperavi"
+        "psr-4": {
+            "dungphanxuan\\imperavieditor\\": ""
+        }
+    }
 }

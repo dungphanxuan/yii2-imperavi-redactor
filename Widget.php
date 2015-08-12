@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\imperavi;
+namespace dungphanxuan\imperavieditor;
 
 use Yii;
 use yii\helpers\Html;
